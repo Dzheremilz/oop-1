@@ -20,4 +20,5 @@ class Human {
   }
 }
 
-exports.Human = Human
+//exports.Human = Human
+module.exports = { Human: Human }
