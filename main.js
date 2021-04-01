@@ -1,8 +1,8 @@
-const { Point } = require('./point')
+const { Pnt } = require('./point')
 const { Human } = require('./classInfo')
 
-const p1 = new Point(1, 2)
-const p2 = new Point(10, 11)
+const p1 = new Pnt(1, 2)
+const p2 = new Pnt(10, 11)
 
 console.log('P1 & P2 isEqual: ' + p1.isEqual(p2))
 console.log('distance P1 & P2: ' + p1.distance(p2))
@@ -22,3 +22,5 @@ charlie.printInfo()
 console.log(charlie.canVote())
 console.log()
 console.log("Who's the best dev: " + charlie.mostSkilledDev(bob))
+
+console.log(`\n\n${p1.distance(p2)}`)
