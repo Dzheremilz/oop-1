@@ -14,8 +14,11 @@ const charlie = new Human('Charlie', 'Charlot', 8, ['Python', 'Rust', 'Go', 'Per
 
 alice.printInfo()
 console.log(alice.canVote())
+console.log()
 bob.printInfo()
 console.log(bob.canVote())
+console.log()
 charlie.printInfo()
 console.log(charlie.canVote())
-console.log(charlie.mostSkilledDev(bob))
+console.log()
+console.log("Who's the best dev: " + charlie.mostSkilledDev(bob))
